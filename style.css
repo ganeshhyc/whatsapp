@@ -1,0 +1,260 @@
+.whatsapp-title{
+    margin-left: 15px;
+    color:#fff;
+    font-size: 25px;
+    font-family: Arial;
+    padding-top:10px;
+}
+.search{
+  margin-left: 130px;
+  margin-top:5px;
+}
+.dots-main {
+  margin-left: 10px;
+  margin-top:10px;
+}
+
+.bgimg {
+    background-image: url('images/divbg.png');
+    background-repeat: no-repeat;
+    background-size: 366px 640px;
+    width:366px;
+    height:640px;
+}
+.friend-nav {
+  background-color: #075e55;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  margin-left: -15px;
+  /* margin-top: -67px; */
+  width: 366px;
+}
+.friend-profile-image {
+  width:50px;
+  height:50px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.friend-image {
+  width:45px;
+  height:45px;
+  margin-top: 7px;
+  margin-left: -10px;
+}
+.back-img {
+  width:30px;
+  height:30px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.friend-name {
+  color : #fff;
+  padding-top: 12px;
+}
+.friend-online {
+  color : #fff;
+  margin-top: -5px;
+}
+.dots {
+  margin-left:150px;
+  margin-top:20px;
+}
+.friend-info {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+.chat {
+    width: 400px;
+}
+.bubble{
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+.input-class{
+  width:160px;
+  margin-left: 5px;
+  background-color: transparent;
+  border: 0px solid;
+  color: #000;
+}
+.input-class:focus{
+    outline: none;
+}
+.send-voice {
+  margin-left: 60px;
+  margin-top: 505px;
+}
+.input-text {
+  background-color: #f7f7f7;
+  margin-left: -240px;
+  width:290px;
+  height:50px;
+  margin-top: 505px;
+  position: absolute;
+}
+.text-muted {
+  margin:auto;
+}
+.me {
+
+      background-color: #f7f7f7;
+}
+.you {
+
+      background-color: #dcf8c7;
+}
+.text-muted {
+  font-size: 12px;
+  margin-right:0px ! important;
+}
+.me.bubble::before {
+    background-color: #f7f7f7;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+.you.bubble::before {
+    background-color: #dcf8c7;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+}
+
+.me {
+    float: left;
+    margin: 5px 45px 5px 20px;
+}
+
+.me::before {
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;
+}
+
+.you {
+    float: right;
+    margin: 5px 80px 5px 45px;
+}
+
+.you::before {
+    box-shadow: 2px -2px 2px 0 rgba( 178, 178, 178, .4 );
+    right: -9px;
+}
+.main-row {
+  padding-top:15px;
+  width:366px;
+  background-color: #075e55;
+  padding-bottom: 0px;
+}
+.main-cols.not-active{
+  color:#83d4cf;
+}
+.main-cols.active {
+  color:#f7f7f7;
+}
+.chat-list {
+  width:366px;
+  height:547px;
+  margin-left:-15px;
+  overflow: scroll;
+}
+.mylist {
+  height:60px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.last-chat-name {
+  margin-left:50px;
+  margin-top:-40px;
+}
+.last-chat-rec {
+  margin-left:50px;
+  margin-top:-5px;
+}
+.small {
+  color:#8b8b8b;
+}
+.chat-image {
+  margin-top:-60px;
+  margin-left:280px;
+  position:absolute;
+}
+.unread {
+  margin-left:310px;
+  margin-top:-37px!important;
+}
+.badge-pill {
+  background-color: green;
+}
+.profile {
+  margin-left:30px;
+  padding-top:15px;
+  color:#f7f7f7;
+}
+.back-img-profile {
+  height:20px;
+}
+.back {
+  margin-top:10px;
+  margin-left:20px;
+}
+.profile-image {
+
+    width:200px;
+    height:200px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.myProfile {
+  background-color: #f7f7f7;
+  height:50%;
+}
+.profile-image-change {
+  margin-left:220px;
+  margin-top:-60px;
+}
+.profile-name-change {
+  margin-top:-300px;
+  width:366px;
+  margin-left: -15px;
+}
+
+.change-list {
+  width:366px;
+  height:590px;
+  margin-left:-15px;
+  overflow: scroll;
+}
+.name-image-change {
+  margin-left:300px;
+  margin-top:-20px;
+}
+.pen {
+  margin-left:300px;
+  margin-top:-20px;
+}
+.small-color {
+  color:green;
+  margin-top:-10px;
+}

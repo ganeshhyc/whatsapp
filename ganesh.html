@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>whatsapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body><br>
+    <div class="container bgimg" >
+      <div class="friend-nav">
+        <div class="media">
+          <div class="friend-back" onclick="javascript:location.href='index.html'">
+            <img class="back-img" src="images/back.png">
+          </div>
+          <img class="mr-3 rounded-circle friend-profile-image" src="images/about-img.jpg" alt="Generic placeholder image">
+          <!-- <div class="media-body friend-info"> -->
+            <span class="info-inner">
+              <h5 class="mt-0 friend-name">Ganesh</h5>
+              <p class="friend-online">online</p>
+            </span>
+          <div class="info-inner dots">
+            <img class="mr-3" src="images/dots-3.png" style="width:25px;height:25px;">
+          </div>
+        <!-- </div> -->
+      </div>
+    </div>
+    <div class="chat-content">
+      <div class="chat">
+        <div class="bubble me">
+          <span class="sent-msg">Hello there! &nbsp;</span>
+          <span class="text-muted">4:24 PM</span>
+        </div>
+        <div class="bubble you">
+          <span class="recieve-msg">Hi buddy how r u?</span>
+          <span class="text-muted">4:24 PM</span>
+        </div>
+        <div class="bubble me">
+          <span class="sent-msg">
+            <img src="images/sent1.jpg" width="200px"><br> haha!
+          </span>
+          <span class="text-muted">4:25 PM</span>
+
+        </div>
+        <div class="bubble input-text">
+          <span class="sent-msg">
+            <img src="images/emoji.png" width="23px">
+            <input class="input-class" type="text" placeholder="Type a message">
+            <img src="images/clip.png" width="20px">
+            <img src="images/camera.png" width="30px" style="margin-left:2px;">
+          </span>
+        </div>
+        <img src="images/voice.png" class="send-voice" width="47px">
+      </div>
+
+    </div>
+  </div>
+  <script>
+    setInterval(()=>{
+      let inp=document.getElementsByClassName('input-class')[0];
+      let changing=document.getElementsByClassName('send-voice')[0];
+      if(inp.value.length>0)
+        changing.src="images/send.png";
+      else
+        changing.src="images/voice.png";
+    },100);
+  </script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

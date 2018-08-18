@@ -1,0 +1,15 @@
+whatsapp using bootstrap
+
+This project is made as a clone of whatsapp, functions are as follows:
+1) Main screen contains of the list of group and friends messages.
+	-> Scrolling the page shows the old messages.
+	-> clicking on the messages will open the chat.(Main Page->Chat Page)
+	-> clicking on the three dots will open the profile edit page.(Main Page->ProfilePage)
+
+2) Message Page contains of  the messages.
+	-> By typing on the text-box makes the recorder icon change to send icon.
+	-> Back arrow move you to the home page.(Chat page->Main Page)
+
+3) Profile page contains the static Image of change name/icon, status as well as contact number
+	-> Back arrow move you to the home page.(Profile page->Main Page)
+4) The Main Pages also containing of the unread messages.
