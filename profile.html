@@ -26,9 +26,62 @@
     <div class="chat-content">
       <div class="row change-list" style="background-color:#f7f7f7;">
         <div class="col myProfile">
-          <img class="mr-3 rounded-circle profile-image" src="images/about-img.jpg" >
+          <img id="proId" class="mr-3 rounded-circle profile-image" src="images/about-img.jpg" >
           <div class="profile-image-change">
-            <img src="images/profile-camera.png" height="55px" >
+            <img src="images/profile-camera.png" height="55px" data-toggle="modal" data-target=".bd-example-modal-sm">
+
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="container">
+  <div class="row">
+    <div class="w-100"></div>
+    <div class="col" style="height:20px;"></div>
+    <div class="w-100"></div>
+    <div class="col">
+      <img src="images/shom.jpeg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="col">
+      <img src="images/kamal.jpeg" height="100px" onclick="picChange(this)"></div>
+    <div class="w-100"></div>
+    <div class="col" style="height:20px;"></div>
+    <div class="w-100"></div>
+    <div class="col" style="height:20px;"></div>
+    <div class="w-100"></div>
+    <div class="col">
+      <img src="images/remo.jpeg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="col">
+      <img src="images/goa.jpg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="w-100"></div>
+    <div class="col" style="height:20px;"></div>
+    <div class="w-100"></div>
+    <div class="col">
+      <img src="images/pubg.jpg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="col">
+      <img src="images/chetna.jpg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="w-100"></div>
+    <div class="col" style="height:20px;"></div>
+    <div class="w-100"></div>
+    <div class="col">
+      <img src="images/anita.jpeg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="col">
+      <img src="images/subho.jpeg" height="100px" onclick="picChange(this)">
+    </div>
+    <div class="w-100"></div>
+    <div class="col" style="height:20px;"></div>
+    <div class="w-100"></div>
+  </div>
+  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button><br><br>
+</div>
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </div>
@@ -57,7 +110,7 @@
       </ul>
     </div>
   </div>
-
+<script>function picChange(imgC){document.getElementById('proId').src=imgC.src}</script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

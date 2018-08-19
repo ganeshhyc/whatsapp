@@ -12,6 +12,7 @@ This project is made as a clone of whatsapp, functions are as follows:
 
 3) Profile page contains the static Image of change name/icon, status as well as contact number
 	-> Back arrow move you to the home page.(Profile page->Main Page)
+	-> Clicking on the image-icon will open a modal to select a new image.
 4) The Main Pages also containing of the unread messages.
 
 Code link: https://github.com/ganeshhyc/whatsapp
